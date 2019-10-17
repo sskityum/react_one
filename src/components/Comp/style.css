@@ -1,0 +1,40 @@
+p {
+    margin-left: 20px;
+}
+
+.root {
+    width: 95%;
+    border: 5px solid #eb2064;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.square {
+    display: flex;
+    width: 95%;
+    border: 5px solid #20a0eb;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: .5em 2em;
+    margin: 10px;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+}
+
+button:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+button:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
